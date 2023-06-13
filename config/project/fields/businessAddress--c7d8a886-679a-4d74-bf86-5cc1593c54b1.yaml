@@ -1,0 +1,27 @@
+columnSuffix: umdvtzcr
+contentColumnType: text
+fieldGroup: 70fb5bd9-06ba-44bc-ac8e-4d97f1340d05
+handle: businessAddress
+instructions: "Seestrasse 96\t\r\n8700 Küsnacht"
+name: 'Business Address'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Simple.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

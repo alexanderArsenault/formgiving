@@ -1,0 +1,19 @@
+columnSuffix: xdbaxwyo
+contentColumnType: text
+fieldGroup: 23dde92c-c4a7-41f2-ac8c-edec5fb2c991
+handle: pageText
+instructions: 'This is the large text shown on the top of the page.'
+name: 'Page Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

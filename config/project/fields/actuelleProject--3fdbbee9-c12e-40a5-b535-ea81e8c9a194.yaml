@@ -1,0 +1,14 @@
+columnSuffix: zdyxjjfg
+contentColumnType: boolean
+fieldGroup: 0404121f-3b43-4edf-8f91-484cf9e22e05
+handle: actuelleProject
+instructions: null
+name: 'Actuelle Project'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

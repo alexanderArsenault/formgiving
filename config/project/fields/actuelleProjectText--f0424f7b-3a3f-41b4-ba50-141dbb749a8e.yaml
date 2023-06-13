@@ -1,0 +1,19 @@
+columnSuffix: goanvaoh
+contentColumnType: text
+fieldGroup: c01637ae-da9f-438b-b94f-9eb66079f9b5
+handle: actuelleProjectText
+instructions: 'This text goes before the actuelle project section on the archiv page'
+name: 'Actuelle Project Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

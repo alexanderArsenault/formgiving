@@ -1,0 +1,9 @@
+format: null
+handle: lowres
+height: 100
+interlace: none
+mode: crop
+name: LowRes
+position: center-center
+quality: 30
+width: null

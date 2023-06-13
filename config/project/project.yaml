@@ -1,0 +1,136 @@
+dateModified: 1683239276
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:30b9b0ce-bf0d-4512-af8e-7bbe939a1a01'
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - 'field:fdee1828-1284-4336-bb56-c20cfc35bcb2'
+      type: native
+email:
+  fromEmail: rsenaultc@gmail.com
+  fromName: BiteRate 
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  project:
+    hasUrls: true
+    name: project
+    settings:
+      path: '@webroot/images/project'
+    type: craft\fs\Local
+    url: '@web/images/project'
+  teamPhotos:
+    hasUrls: true
+    name: team
+    settings:
+      path: '@webroot/images/team'
+    type: craft\fs\Local
+    url: '@web/images/team'
+meta:
+  __names__:
+    0b38a6f1-daaf-4fda-b567-2e966ecac3f5: C+G
+    0e2e66d1-935a-4b1e-8360-06dcda59a613: 'Team Photos'
+    1ae40c53-c8eb-45dc-8e4d-9ed6f3ea6d28: 'Home Page'
+    1e72ce05-01c8-4865-b077-e1f0e99627b9: 'Project Zeitdauer'
+    3aa103e0-9c7a-4938-9e99-b2cc95c894f6: LowRes
+    3fdbbee9-c12e-40a5-b535-ea81e8c9a194: 'Actuelle Project'
+    4bf00f78-4885-4b6b-a6a1-dd68fb6436a7: 'Project Details'
+    6d028446-8fb7-40aa-b8c9-2262ba95b3c0: 'Home Images'
+    7fdab846-07ae-4e4a-92b5-b9f6e827f4d6: 'Project Gallery'
+    8e658642-a4e5-484c-920d-25db92a50da4: 'Reference Images'
+    09ae9717-2b1a-45ee-aff1-34710fa649c1: 'Home Low Res'
+    23dde92c-c4a7-41f2-ac8c-edec5fb2c991: Common
+    24f1ca91-8849-41c2-b4d9-f7e335886226: 'Featured Projects'
+    27ec8eb2-b037-4427-b5de-ca356fb40a0e: 'Page Text'
+    30b9b0ce-bf0d-4512-af8e-7bbe939a1a01: Projects
+    30e76fa4-2995-473a-8120-166aafcb7e43: 'About Us'
+    54a7cbee-951b-4828-8c0e-8c767689e521: 'Project Text Content'
+    70fb5bd9-06ba-44bc-ac8e-4d97f1340d05: 'Team Fields'
+    272d5a67-670b-4bfd-ba65-bbd133766256: Archiv
+    297a7304-ea06-4bfa-ab70-ceb7e2f8793c: 'Uber Uns'
+    790d7e4e-f6e4-4009-b190-43462c745601: Referenzen
+    8228b035-fb8e-4491-9498-eaa57ee42747: 'Team Members'
+    8427f64a-7a41-4982-9210-df04b8400923: 'Project Photos'
+    57640f4c-484c-49c4-a3f4-ec8694c65d42: 'Business Details'
+    086259da-3672-47af-a708-cf80ee82c01e: 'Marquee Text'
+    90132f11-3bdb-456a-a01e-18653a2c7371: 'Building Type'
+    91633e6e-a0ba-4081-9b36-a6abc77465b9: 'Project Bauherrschaft'
+    0404121f-3b43-4edf-8f91-484cf9e22e05: 'Project Fields'
+    73166065-2347-470c-829f-bccaa41283d6: Home
+    a8ebc45c-68de-46be-b5d2-c648a0a99aac: Default
+    ad9cc240-0c67-4bf1-ad59-183dacc2169f: 'Business Contact'
+    b373d66a-5a09-4164-a51a-bbbef0102a75: Archiv
+    ba6a7105-5890-449d-90b3-9ca3a98f7da4: Referenzen
+    c01637ae-da9f-438b-b94f-9eb66079f9b5: 'Archiv Fields'
+    c7d8a886-679a-4d74-bf86-5cc1593c54b1: 'Business Address'
+    c899eea5-625d-430a-af64-94c6c79c05dc: Name
+    c808777b-1863-4f28-b9ba-658f7420314c: 'Project Architekt'
+    d03399df-cbbc-4519-949d-ae47810ffc53: Home
+    dd481797-f29b-408b-8b8d-500817d78742: 'Project Building Type'
+    e92950dd-e385-4421-905f-63fab21d1afc: Photo
+    ec4cd1bd-750d-47d2-b69d-59faca0bd560: 'Project Number'
+    f0424f7b-3a3f-41b4-ba50-141dbb749a8e: 'Actuelle Project Text'
+    f39bc8ac-e071-427f-a24c-643bf9ecaa71: 'Uber Uns'
+    f70b9a5b-18df-4c74-9883-5a97fbf5f7f4: BiteRate
+    fdee1828-1284-4336-bb56-c20cfc35bcb2: 'Reference Project'
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  blitz-recommendations:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  environment-label:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  position-fieldtype:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  templatecomments:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: BiteRate
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

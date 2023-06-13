@@ -1,0 +1,51 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 1ae40c53-c8eb-45dc-8e4d-9ed6f3ea6d28
+handle: featuredProjects
+instructions: 'Select Projects to be shown on home page'
+name: 'Featured Projects'
+searchable: false
+settings:
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              0:
+                - class
+                - craft\fields\conditions\RelationalFieldConditionRule
+              1:
+                - uid
+                - 2549b14b-4420-49f1-802b-09bebfdd841b
+              2:
+                - operator
+                - notempty
+              4:
+                - fieldUid
+                - 7fdab846-07ae-4e4a-92b5-b9f6e827f4d6
+  selectionLabel: null
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:30b9b0ce-bf0d-4512-af8e-7bbe939a1a01'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

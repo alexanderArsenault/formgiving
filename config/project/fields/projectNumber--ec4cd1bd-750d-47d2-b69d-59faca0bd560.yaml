@@ -1,0 +1,20 @@
+columnSuffix: bczznfzn
+contentColumnType: integer(10)
+fieldGroup: 0404121f-3b43-4edf-8f91-484cf9e22e05
+handle: projectNumber
+instructions: 'ex: 2105 - the # will be added automatically'
+name: 'Project Number'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: none
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

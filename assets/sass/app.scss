@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @import 'your/stuff'; // @import 'your/things';
+
+body {
+    font-family: 'DM Serif Display', serif; 
+    color: white;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    @apply md:text-6xl text-4xl
+}
+
+h1.small {
+    @apply md:text-6xl text-4xl
+    
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    @apply md:text-4xl text-2xl 
+}
+
+h4 {
+    @apply md:text-xl text-lg
+}
+
+body {
+    background-image: url('images/hero.png');
+    background-size: cover;
+    background-position: center center;
+}

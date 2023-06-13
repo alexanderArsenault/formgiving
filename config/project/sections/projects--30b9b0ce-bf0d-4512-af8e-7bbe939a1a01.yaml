@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: projects
+name: Projects
+propagationMethod: all
+siteSettings:
+  f70b9a5b-18df-4c74-9883-5a97fbf5f7f4:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'referenzen#{{slug}}'
+type: channel

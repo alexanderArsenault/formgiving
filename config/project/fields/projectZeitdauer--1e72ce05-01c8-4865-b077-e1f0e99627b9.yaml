@@ -1,0 +1,19 @@
+columnSuffix: gnmzlvwh
+contentColumnType: text
+fieldGroup: 0404121f-3b43-4edf-8f91-484cf9e22e05
+handle: projectZeitdauer
+instructions: null
+name: 'Project Zeitdauer'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

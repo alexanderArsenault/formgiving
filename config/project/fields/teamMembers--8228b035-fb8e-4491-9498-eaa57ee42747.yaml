@@ -1,0 +1,37 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 70fb5bd9-06ba-44bc-ac8e-4d97f1340d05
+handle: teamMembers
+instructions: null
+name: 'Team Members'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 285505308
+  columns:
+    __assoc__:
+      -
+        - c899eea5-625d-430a-af64-94c6c79c05dc
+        -
+          __assoc__:
+            -
+              - width
+              - 49%
+      -
+        - e92950dd-e385-4421-905f-63fab21d1afc
+        -
+          __assoc__:
+            -
+              - width
+              - 49%
+  contentTable: '{{%stc_teammembers}}'
+  fieldLayout: matrix
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

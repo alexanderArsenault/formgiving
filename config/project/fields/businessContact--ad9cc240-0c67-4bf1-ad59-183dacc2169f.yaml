@@ -1,0 +1,27 @@
+columnSuffix: eyxrfojc
+contentColumnType: text
+fieldGroup: 70fb5bd9-06ba-44bc-ac8e-4d97f1340d05
+handle: businessContact
+instructions: "Telefon: 043 222 31 80\r\nTelefax: 043 222 31 81\r\ninfo@caretta-gitz.ch"
+name: 'Business Contact'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Simple.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

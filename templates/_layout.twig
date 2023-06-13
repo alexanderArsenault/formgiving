@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="index,follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{{ rev('/assets/app.css') }}">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+	{% include '_partials/favicons' %}
+	<title>Formgiving - Coming soon</title>
+</head>
+
+<body class="h-full relative min-h-screen overflow-x-hidden flex flex-col items-center justify-center">
+	<h1 class="h-full">Formgiving</h1>
+	<div class="absolute bottom-4 tracking-wider flex flex-col items-center justify-center text-xs md:text-base">
+		<p>Coming soon</p>
+		<p><a class="hover:underline" href="mailto:info@form.giving">info@form.giving</a></p>
+	</div>
+</body>
+
+<script src="{{ rev('/assets/manifest.js') }}"></script> {# If no 3rd-party JS libraries are being imported, vendor.js
+may not exist in production builds. Delete the following line if that's the case #}
+<script src="{{ rev('/assets/vendor.js') }}"></script>
+<script src="{{ rev('/assets/app.js') }}"></script>
+
+</html>

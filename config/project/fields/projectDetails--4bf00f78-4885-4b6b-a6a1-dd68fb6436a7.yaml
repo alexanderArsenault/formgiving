@@ -1,0 +1,27 @@
+columnSuffix: zqsmmabq
+contentColumnType: text
+fieldGroup: 0404121f-3b43-4edf-8f91-484cf9e22e05
+handle: projectDetails
+instructions: 'Bauherrschaft, Erstellungszeit, etc'
+name: 'Project Details'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Simple.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

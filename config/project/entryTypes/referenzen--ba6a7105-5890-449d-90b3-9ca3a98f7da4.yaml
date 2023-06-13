@@ -1,0 +1,55 @@
+fieldLayouts:
+  585e3ff0-b259-4bd3-a484-771c24d9a1ac:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cc8bf54d-6a68-4395-9720-94b967c23338
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 27ec8eb2-b037-4427-b5de-ca356fb40a0e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d74770c-ee96-443a-92f8-33f2d58828f1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 27d94266-965f-4feb-9507-56282b8c732b
+        userCondition: null
+handle: referenzen
+hasTitleField: false
+name: Referenzen
+section: 790d7e4e-f6e4-4009-b190-43462c745601
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

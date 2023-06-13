@@ -1,0 +1,14 @@
+columnSuffix: khhktnju
+contentColumnType: boolean
+fieldGroup: 0404121f-3b43-4edf-8f91-484cf9e22e05
+handle: referenceProject
+instructions: null
+name: 'Reference Project'
+searchable: false
+settings:
+  default: false
+  offLabel: Hidden
+  onLabel: Shown
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

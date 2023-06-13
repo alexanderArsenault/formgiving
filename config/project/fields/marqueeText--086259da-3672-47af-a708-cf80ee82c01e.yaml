@@ -1,0 +1,19 @@
+columnSuffix: exofsswa
+contentColumnType: text
+fieldGroup: 23dde92c-c4a7-41f2-ac8c-edec5fb2c991
+handle: marqueeText
+instructions: 'This is shown in the green marquee on the top of the Home page'
+name: 'Marquee Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

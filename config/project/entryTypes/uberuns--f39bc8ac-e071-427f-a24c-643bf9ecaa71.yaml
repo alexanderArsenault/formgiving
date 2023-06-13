@@ -1,0 +1,113 @@
+fieldLayouts:
+  ff6bfcc2-1c6c-421a-819d-4e8a98f311a8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 27703a8d-54f0-4c5d-a62f-b533abaf64ce
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 27ec8eb2-b037-4427-b5de-ca356fb40a0e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ce724fe-b599-479a-8d32-a12b2b1a1118
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 32a3237d-d6ef-4087-b582-2ab6d808c237
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 8228b035-fb8e-4491-9498-eaa57ee42747
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e24b86f1-1538-4af6-9ca2-534c84649c72
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 822bbc0c-2280-41a4-b450-5a3f97755f3e
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 57640f4c-484c-49c4-a3f4-ec8694c65d42
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9f6212ba-897b-4f16-b10a-cf3f1af423c6
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
+            fieldUid: c7d8a886-679a-4d74-bf86-5cc1593c54b1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56860896-c2eb-47fd-9f69-5613fd50e0cf
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
+            fieldUid: ad9cc240-0c67-4bf1-ad59-183dacc2169f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4eca14b-8cb2-40ca-97bb-1c680d0a7ac9
+            userCondition: null
+            warning: null
+            width: 75
+        name: Content
+        uid: c3babd3c-ae64-40ab-9c19-3fc1ce1bb16e
+        userCondition: null
+handle: uberuns
+hasTitleField: false
+name: 'Uber Uns'
+section: 297a7304-ea06-4bfa-ab70-ceb7e2f8793c
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

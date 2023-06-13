@@ -1,0 +1,43 @@
+fieldLayouts:
+  e04a4836-39e5-469f-8904-a212522fb3b9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 392a6dd3-93e5-425b-9f38-05f37ba4dee0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b7a88148-999f-4771-af54-0674ea240304
+        userCondition: null
+fs: teamPhotos
+handle: teamPhotos
+name: 'Team Photos'
+sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

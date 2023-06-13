@@ -1,0 +1,9 @@
+format: null
+handle: homeLowRes
+height: 1400
+interlace: none
+mode: crop
+name: 'Home Low Res'
+position: center-center
+quality: 10
+width: null
